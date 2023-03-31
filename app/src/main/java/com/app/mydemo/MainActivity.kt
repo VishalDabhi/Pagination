@@ -37,7 +37,8 @@ class MainActivity : AppCompatActivity() {
         init()
     }
 
-    private fun init() {
+    private fun init()
+    {
         Log.e(TAG, "init()")
 
         biding.rvPastHistory.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
